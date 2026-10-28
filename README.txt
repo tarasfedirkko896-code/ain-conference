@@ -1,0 +1,1 @@
+Upload map.tmj, map.wam, ain_conference_visual.png, special_zones.png to the ROOT of GitHub repository. Replace existing map.tmj and map.wam. Map URL: https://tarasfedirkko896-code.github.io/ain-conference/map.tmj
