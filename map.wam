@@ -1,0 +1,139 @@
+{
+  "version": "2.0.0",
+  "mapUrl": "",
+  "metadata": {
+    "name": "AIN Conference — prototype-inspired",
+    "description": "Visual concept map with AIN stage, sponsor booths, backstage, lounge, networking, reception. Sponsor brands are illustrative only. Speaker/listener and meeting zones are preliminary and require live testing.",
+    "copyright": "Concept image provided by the user; original WorkAdventure special-zone tiles retained under their respective source license.",
+    "thumbnail": ""
+  },
+  "entities": {},
+  "areas": [
+    {
+      "id": "88de49e6-327d-4984-936a-432df7a988e7",
+      "x": 710,
+      "y": 190,
+      "width": 250,
+      "height": 52,
+      "name": "AIN — Головна сцена",
+      "properties": [
+        {
+          "id": "9bb06df3-d9b4-4a6d-b059-bb2785b0a5c5",
+          "type": "speakerMegaphone",
+          "name": "AIN Main Stage",
+          "chatEnabled": false
+        }
+      ],
+      "visible": true,
+      "modifyProperties": false
+    },
+    {
+      "id": "12641c0f-e94c-4dad-aa42-35bfa9ac36e5",
+      "x": 520,
+      "y": 245,
+      "width": 620,
+      "height": 130,
+      "name": "AIN — Глядачі",
+      "properties": [
+        {
+          "id": "dafe44ea-1a78-4d51-9de4-e509b892fcef",
+          "type": "listenerMegaphone",
+          "speakerZoneName": "88de49e6-327d-4984-936a-432df7a988e7",
+          "chatEnabled": false
+        }
+      ],
+      "visible": true,
+      "modifyProperties": false
+    },
+    {
+      "id": "822b2b66-8bdf-4d28-ba61-8e1766e22d05",
+      "x": 50,
+      "y": 95,
+      "width": 370,
+      "height": 85,
+      "name": "Backstage / Спікери",
+      "properties": [
+        {
+          "id": "f2a36e14-1177-4e95-beca-52b65d9f8b33",
+          "type": "jitsiRoomProperty",
+          "closable": true,
+          "jitsiRoomConfig": {},
+          "hideButtonLabel": true,
+          "roomName": "AIN-Backstage"
+        }
+      ],
+      "visible": true,
+      "modifyProperties": false
+    },
+    {
+      "id": "95c4c406-6154-4759-a208-044532061368",
+      "x": 1210,
+      "y": 80,
+      "width": 180,
+      "height": 85,
+      "name": "Медіазона",
+      "properties": [
+        {
+          "id": "a0d98d72-59b6-4e92-b2eb-37050e977e4f",
+          "type": "jitsiRoomProperty",
+          "closable": true,
+          "jitsiRoomConfig": {},
+          "hideButtonLabel": true,
+          "roomName": "AIN-Media"
+        }
+      ],
+      "visible": true,
+      "modifyProperties": false
+    },
+    {
+      "id": "ee5889bf-34ec-470e-a0f0-56bfd50566d2",
+      "x": 60,
+      "y": 620,
+      "width": 400,
+      "height": 130,
+      "name": "Дискусії",
+      "properties": [
+        {
+          "id": "5525badc-62de-449e-9c36-6e85200acddd",
+          "type": "jitsiRoomProperty",
+          "closable": true,
+          "jitsiRoomConfig": {},
+          "hideButtonLabel": true,
+          "roomName": "AIN-Discussion"
+        }
+      ],
+      "visible": true,
+      "modifyProperties": false
+    },
+    {
+      "id": "3ec3bbf0-0c71-4306-920d-ac6193ecd477",
+      "x": 1440,
+      "y": 240,
+      "width": 180,
+      "height": 105,
+      "name": "Нетворкінг",
+      "properties": [
+        {
+          "id": "dd892a23-a9f1-4220-b48c-d97488508957",
+          "type": "jitsiRoomProperty",
+          "closable": true,
+          "jitsiRoomConfig": {},
+          "hideButtonLabel": true,
+          "roomName": "AIN-Networking"
+        }
+      ],
+      "visible": true,
+      "modifyProperties": false
+    }
+  ],
+  "entityCollections": [],
+  "lastCommandId": "671ec6d7-1176-4c60-b641-712a8af50ad4",
+  "settings": {
+    "megaphone": {
+      "enabled": true,
+      "title": "megaphoneMySpace",
+      "scope": "ROOM",
+      "rights": []
+    }
+  }
+}
